@@ -35,68 +35,6 @@ function RegistrationPage() {
       });
   };
 
-  // return (
-  //   <div className="registration-container">
-  //     <h2>Registration Form</h2>
-  //     <Formik
-  //       initialValues={initialValues}
-  //       onSubmit={onSubmit}
-  //       validationSchema={validationSchema}
-  //     >
-  //       {(formikProps) => (
-  //         <Form className="formContainer">
-  //           <div className="form-group">
-  //             <label htmlFor="username">Username:</label>
-  //             <ErrorMessage
-  //               name="username"
-  //               component="span"
-  //               className="error-message"
-  //             />
-  //             <Field
-  //               id="username"
-  //               name="username"
-  //               placeholder="(Ex. John123...)"
-  //             />
-  //           </div>
-  //           <div className="form-group">
-  //             <label htmlFor="password">Password:</label>
-  //             <ErrorMessage
-  //               name="password"
-  //               component="span"
-  //               className="error-message"
-  //             />
-  //             <Field
-  //               id="password"
-  //               type="password"
-  //               name="password"
-  //               placeholder="Your Password..."
-  //             />
-  //           </div>
-  //           <div className="form-group">
-  //             <label htmlFor="email">Email:</label>
-  //             <ErrorMessage
-  //               name="email"
-  //               component="span"
-  //               className="error-message"
-  //             />
-  //             <Field id="email" name="email" placeholder="Your email..." />
-  //           </div>
-  //           <button type="submit" className="submit-button">
-  //             Create User
-  //           </button>
-  //         </Form>
-  //       )}
-  //     </Formik>
-  //     {registrationSuccess && (
-  //       <div className="success-message">
-  //         <p>You have been registered successfully.</p>
-  //         <p>
-  //           Return to the <Link to="/">Sign In Page</Link>.
-  //         </p>
-  //       </div>
-  //     )}
-  //   </div>
-  // );
   return (
     <div className="container">
       <div className="registration-container">

@@ -29,58 +29,6 @@ const Clients = () => {
     }
   };
 
-  // return (
-  //   <div className="container">
-  //     <Link to="/dashboard" className="link">
-  //       Back to dashboard
-  //     </Link>
-  //     <br />
-  //     <Link to="/createclient" className="link">
-  //       Create a new Client
-  //     </Link>
-  //     <h1 className="title">Search for a client's first name:</h1>
-
-  //     <div className="search-container">
-  //       <input
-  //         type="text"
-  //         value={firstName}
-  //         onChange={(e) => setFirstName(e.target.value)}
-  //         placeholder="Enter first name"
-  //         className="input"
-  //       />
-  //       <button onClick={handleSearch} className="button">
-  //         Search
-  //       </button>
-
-  //       <table className="table">
-  //         <thead>
-  //           <tr>
-  //             <th>First Name</th>
-  //             <th>Last Name</th>
-  //             <th>City</th>
-  //             {/* Add more table headers as needed */}
-  //           </tr>
-  //         </thead>
-  //         <tbody>
-  //           {searchResults.map((result, index) => (
-  //             <tr key={index}>
-  //               <td>{result.firstName}</td>
-  //               <td>{result.lastName}</td>
-  //               <td>{result.city}</td>
-  //               {/* Add more table cells for additional data */}
-  //             </tr>
-  //           ))}
-  //         </tbody>
-  //       </table>
-  //       {errorOccurred && (
-  //         <div className="error-message">
-  //           <p>Error:</p>
-  //           <p>{errorMessage}</p>
-  //         </div>
-  //       )}
-  //     </div>
-  //   </div>
-  // );
   return (
     <div className="container">
       <h1 className="title">Search for a client's first name:</h1>

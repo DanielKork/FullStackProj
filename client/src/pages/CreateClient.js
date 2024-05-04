@@ -37,74 +37,7 @@ const CreateClient = () => {
         alert("Registration failed:", error);
       });
   };
-
-  // return (
-  //   <>
-  //     <Link to="/dashboard">Back to dashboard</Link>
-  //     <br />
-  //     <Link to="/clients">View Clients</Link>
-  //     <div className="registration-container">
-  //       <h2>Create a new Client</h2>
-  //       <Formik
-  //         initialValues={initialValues}
-  //         onSubmit={onSubmit}
-  //         validationSchema={validationSchema}
-  //       >
-  //         {(formikProps) => (
-  //           <Form className="formContainer">
-  //             <div className="form-group">
-  //               <label htmlFor="firstname">Firstname:</label>
-  //               <ErrorMessage
-  //                 name="firstname"
-  //                 component="span"
-  //                 className="error-message"
-  //               />
-  //               <Field
-  //                 id="firstname"
-  //                 name="firstname"
-  //                 placeholder="(Ex. John...)"
-  //               />
-  //             </div>
-  //             <div className="form-group">
-  //               <label htmlFor="lastname">Lastname:</label>
-  //               <ErrorMessage
-  //                 name="lastname"
-  //                 component="span"
-  //                 className="error-message"
-  //               />
-  //               <Field
-  //                 id="lastname"
-  //                 name="lastname"
-  //                 placeholder="(Ex. Cohen...)"
-  //               />
-  //             </div>
-  //             <div className="form-group">
-  //               <label htmlFor="city">City:</label>
-  //               <ErrorMessage
-  //                 name="city"
-  //                 component="span"
-  //                 className="error-message"
-  //               />
-  //               <Field id="city" name="city" placeholder="(Ex. Holon...)" />
-  //             </div>
-  //             <button type="submit" className="submit-button">
-  //               Create Client
-  //             </button>
-  //           </Form>
-  //         )}
-  //       </Formik>
-  //       {creationSuccess && (
-  //         <div className="success-message">
-  //           <p>New client have been created.</p>
-  //           <p>
-  //             You can view all clients <Link to="/clients">Here</Link>.
-  //           </p>
-  //           {/* <p>Hello {helloFirstName}</p> */}
-  //         </div>
-  //       )}
-  //     </div>
-  //   </>
-  // );
+  
   return (
     <>
       <div className="container">

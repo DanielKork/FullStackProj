@@ -37,51 +37,6 @@ const SignInPage = () => {
     }
   };
 
-  // return (
-  //   <div className="container">
-  //     <h2>Sign In</h2>
-  //     <form onSubmit={handleSignIn} className="form">
-  //       <div className="form-group">
-  //         <label htmlFor="username">Username:</label>
-  //         <input
-  //           type="text"
-  //           id="username"
-  //           name="username"
-  //           value={username}
-  //           onChange={handleInputChange}
-  //           className="form-control"
-  //         />
-  //       </div>
-  //       <div className="form-group">
-  //         <label htmlFor="password">Password:</label>
-  //         <input
-  //           type="password"
-  //           id="password"
-  //           name="password"
-  //           value={password}
-  //           onChange={handleInputChange}
-  //           className="form-control"
-  //         />
-  //       </div>
-  //       <button type="submit" className="btn">
-  //         Sign In
-  //       </button>
-  //     </form>
-  //     <div className="link">
-  //       <a href="/register">Register</a>
-  //     </div>
-  //     <div className="link">
-  //       <a href="/reset-password">Forgot your password?</a>
-  //     </div>
-  //     {loginSuccess && (
-  //       <div>
-  //         <p>You have been logged in successfully, enter the Dashboard..</p>
-  //         <Link to="/dashboard">Dashboard</Link>
-  //       </div>
-  //     )}
-  //   </div>
-  // );
-
   return (
     <div className="container">
       <div className="signin-container">

@@ -40,19 +40,21 @@ app.use(express.static(path.join(__dirname, 'public')));
 const caloriesRouter = require('./routes/addcalories');
 const reportRouter = require('./routes/report');
 const aboutRouter = require('./routes/about');
+const loginRouter = require('./routes/login');
 
 
 // Define routes
 app.use('/addcalories', caloriesRouter);
 app.use('/report', reportRouter);
 app.use('/about', aboutRouter);
+app.use('/login', loginRouter);
 
 // Create users table
 const users = require('./models/userModel');
 
 
 // Define port
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3001;
 
 
 // Start the server

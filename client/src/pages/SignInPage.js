@@ -15,7 +15,7 @@ const SignInPage = () => {
     const data = { username: username, password: password };
     // console.log(`The Data which is being sent is: ${data}`);
     axios
-      .post("http://localhost:3001/auth/login", data)
+      .post("http://localhost:3001/login", data)
       .then((response) => {
         if (response.data === "Logged in successfully") setLoginSuccess(true);
         else {
